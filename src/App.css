@@ -22,6 +22,38 @@
   color: #61dafb;
 }
 
+.centerText {
+  background-image: url("/images/blue1.jpg");
+  border-top: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #5bc5f9;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.jumbotron h1 {
+  color: #5bc5f9;
+}
+
+
+.image1 {
+  background-size: cover;
+}
+
+.front-size {
+  font-size: 200px;
+}
+
+p {
+  line-height: 1.25;
+  margin-bottom: 0px
+}
+
+text-bold{
+  font-weight: 300;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -29,4 +61,83 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+  background-image: url("/images/blue1.jpg");
+  border-bottom: 1px solid black;
+
+}
+.presentation {
+ font-size: 50px;
+
+}
+
+.Nav.nav.nav-tabs li {
+  font-size: 16px;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  position: relative;
+}
+.nav-style {
+  max-width: 960px;
+  margin: auto;
+  position: relative;
+}
+.image-style {
+  border-top: 1px solid black;
+}
+body {
+  background-image: url("/images/blue1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.nav-tabs {
+    border-bottom: 0px;
+}
+.footer-style{
+  line-height: 1.75;
+  text-align: center;
+  font-size: 15px;
+  color: #5bc5f9;
+  background-color: black;
+  margin-bottom: 0px;
+  border-top: 1px solid #333333;
+}
+
+.Nav.nav.nav-tabs>li>a:focus {
+    background-color: inherit;
+}
+p {
+ color: #5bc5f9;
+}
+
+.Nav.nav.nav-tabs>li>a:hover {
+    color: #e88b12;
+    background-color: inherit;
+    border: none;
+    cursor:pointer;
+}
+a:hover {
+  color: #e88b12;
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+}
+.nav-tabs>li.active>a {
+  background-color: transparent;
+  border: none;
+}
+.socialMedia {
+  float: right;
+  background-color: red;
+  height: 30px;
+  width: 200px;
 }
